@@ -1,0 +1,12 @@
+appName: socio_network_not
+
+app:
+  base_url: 'http://localhost:8009'
+  endpoints:
+    create_user: '/user/create'
+    auth_user: '/user/auth'
+    create_post: '/posts/'
+    like_post: '/post/like/'
+  number_of_users: 50
+  max_posts_per_user: 15
+  max_likes_per_user: 20
